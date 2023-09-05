@@ -1,0 +1,56 @@
+button {
+	padding: 5px;
+}
+
+form {
+	display: table;
+}
+
+form div {
+	display: table-row;
+}
+
+label, input, span, select {
+	display: table-cell;
+	margin: 2px;
+	text-align: left;
+}
+
+input[type=text], input[type=password], select, textarea {
+	width: 200px;
+	margin: 2px;
+}
+
+form div div {
+	display: table-cell;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+span {
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+	font-weight: bold;
+}
+
+div.a {
+	display: inline-block;
+	width: 50%;
+	height: auto;
+	padding: 5px;
+	border: 0px solid blue;
+	background-color: white;
+}
+
+div.b {
+	display: inline-block;
+	width: 45%;
+	height: auto;
+	padding: 5px;
+	border: 1px solid blue;
+	background-color: white;
+}
